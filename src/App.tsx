@@ -4,7 +4,7 @@ import { NewNoteCard } from './components/new-note-card'
 
 export function App() {
   return (
-    <main className="mx-auto container my-12 space-y-6">
+    <main className="mx-auto max-w-6xl my-12 space-y-6">
       <img src={logo} alt="<nlw/> expert" />
       <form className="w-full">
         <input
